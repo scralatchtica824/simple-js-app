@@ -2,7 +2,7 @@
 alert('Hello world - Click Okay to see my name!');
 /* Testing a larger comment 
 that takes up 2 or more lines */
-let age = 35;
+let age = 34;
 let myName = "Doug";
 document.write(myName);
 
