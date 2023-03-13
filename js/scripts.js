@@ -6,4 +6,3 @@ let pokemonList = [
     { name: 'Blastoise', height: 1.6, weight: 88.5, types: ['monster', 'water']},
     { name: 'Raichu', height: 0.8, weight: 30, types: ['field', 'fairy']},
   ];
-  
