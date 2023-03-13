@@ -1,24 +1,10 @@
-// Testing normal comment
-alert('Hello world - Click Okay to see my name!');
-/* Testing a larger comment 
-that takes up 2 or more lines */
-let age = 34;
-let myName = "Doug";
-document.write(myName);
+alert('Hello world - Click here so see the beginning of my Pokémon project!');
 
-let simpleAddition = 2+2;
-document.write(simpleAddition)
+let pokemonList = [
+    { name: 'Venusaur', height: 2, weight: 100, types: ['grass', 'poison']},
+    { name: 'Charizard', height: 1.7, weight: 90.5, types: ['monster', 'dragon']},
+    { name: 'Blastoise', height: 1.6, weight: 88.5, types: ['monster', 'water']},
+    { name: 'Raichu', height: 0.8, weight: 30, types: ['field', 'fairy']},
+  ];
 
-let size = 100;
-let doubleSize = size * 2;
-document.write(doubleSize);
-
-let size2 = 100;
-let doubleSize2 = size2 * 3;
-let minSize = (doubleSize2 * 2) - (size2 / 6);
-document.write(minSize);
-
-let favoriteFood = "cheeseburgers";
-document.write (favoriteFood);
-
-//End comments here..
+  document.write(pokemonList.name)
