@@ -20,7 +20,7 @@ let pokemonList = [
       pokemonData += ' - This is a Large Pokemon!'
     }
     
-    //displays the infomation on each line
+    //displays the information on each line
     pokemonData += '</p>';
     document.write(pokemonData);
 }
