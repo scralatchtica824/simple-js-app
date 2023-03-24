@@ -14,10 +14,13 @@ let pokemonList = [
  
   for (let i = 0; i < pokemonList.length; i++) {
     let pokemonData = '<p>' + pokemonList[i].name + ' (Height: ' + pokemonList[i].height + 'm)';
+
+    //logic to display if it's a large pokemon or not
     if (pokemonList[i].height > 1.6){
       pokemonData += ' - This is a Large Pokemon!'
     }
     
+    //displays the infomation on each line
     pokemonData += '</p>';
     document.write(pokemonData);
 }
