@@ -8,7 +8,10 @@ let pokemonList = [
     { name: 'Raichu', height: 0.8, weight: 30, types: ['field', 'fairy']},
   ];
 
-  //loop through to display the name and height of the pokemon on seperate lines
+  /*loop through to display the name and height of the pokemon on seperate lines. 
+  If the pokemon is over 1.6m in height it will display that it's a large pokemon!
+  */
+ 
   for (let i = 0; i < pokemonList.length; i++) {
     let pokemonData = '<p>' + pokemonList[i].name + ' (Height: ' + pokemonList[i].height + 'm)';
     if (pokemonList[i].height > 1.6){
