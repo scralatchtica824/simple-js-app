@@ -13,7 +13,7 @@ let pokemonList = [
   */
  
   for (let i = 0; i < pokemonList.length; i++) {
-    let pokemonData = '<p>' + pokemonList[i].name + ' (Height: ' + pokemonList[i].height + 'm)'
+    let pokemonData = '<p>' + pokemonList[i].name + ' (Height: ' + pokemonList[i].height + 'm)';
 
     //logic to display if it's a large pokemon or not
     if (pokemonList[i].height > 1.6){
