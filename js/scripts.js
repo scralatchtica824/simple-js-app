@@ -11,18 +11,31 @@ let pokemonRepository = (function () {
 
   pokemonList.forEach(function(pokemon) {
     document.write('<p>' + pokemon.name + " " + pokemon.height + "m " + pokemon.types + '<p>')
-  });
+  })
+
+  function add(pokemon) {
+    pokemonList.push(pokemon);
+  }
+
+  function getAll() {
+    return pokemonList;
+  }
+
+  return {
+    add: add,
+    getAll: getAll
+  };
 })();
 
-//getAll function added
-function getAll() {
-  return pokemonList;
-}
 
-//add Function inserted here
-function add(pokemon) {
-  pokemonList.push(pokemon);
-}
+
+
+
+  
+
+
+
+
 
 
   /*loop through to display the name and height of the pokemon on seperate lines. 
