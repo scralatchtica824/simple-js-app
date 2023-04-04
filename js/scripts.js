@@ -9,10 +9,6 @@ let pokemonRepository = (function () {
     { name: 'Raichu', height: 0.8, weight: 30, types: ['field', 'fairy']},
   ];
 
-  pokemonList.forEach(function(pokemon) {
-    document.write('<p>' + pokemon.name + " " + pokemon.height + "m " + pokemon.types + '<p>')
-  })
-
   function add(pokemon) {
     pokemonList.push(pokemon);
   }
@@ -26,3 +22,10 @@ let pokemonRepository = (function () {
     getAll: getAll
   };
 })();
+
+
+pokemonRepository.forEach(function(pokemon){
+  document.write(pokemon.name + ' is a ' + pokemon.type + ' type pokemon ' + 'and is ' + pokemon.height + ' tall ' + '<br>')
+})
+
+     
