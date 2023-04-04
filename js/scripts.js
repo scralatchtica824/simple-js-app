@@ -26,33 +26,3 @@ let pokemonRepository = (function () {
     getAll: getAll
   };
 })();
-
-
-
-
-
-  
-
-
-
-
-
-
-  /*loop through to display the name and height of the pokemon on seperate lines. 
-  If the pokemon is over 1.6m in height it will display that it's a large pokemon!
-  */
- 
-  /*old loop used in earlier exercise
-  for (let i = 0; i < pokemonList.length; i++) {
-    let pokemonData = '<p>' + pokemonList[i].name + ' (Height: ' + pokemonList[i].height + 'm)';
-
-    //logic to display if it's a large pokemon or not
-    if (pokemonList[i].height > 1.6){
-      pokemonData += ' - This is a Large Pokemon!'
-    }
-    
-    //displays the information on each line
-    pokemonData += '</p>';
-    document.write(pokemonData);
-}
-*/
