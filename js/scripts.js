@@ -24,8 +24,7 @@ let pokemonRepository = (function () {
 })();
 
 
-pokemonRepository.forEach(function(pokemon){
-  document.write(pokemon.name + ' is a ' + pokemon.type + ' type pokemon ' + 'and is ' + pokemon.height + ' tall ' + '<br>')
-})
-
-     
+pokemonRepository.getAll().forEach(function(pokemon) {
+  pokemonRepository.addListItem(pokemon);
+});
+ 
