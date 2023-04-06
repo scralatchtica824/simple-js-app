@@ -1,5 +1,3 @@
-alert('Hello world - Click here so see the beginning of my Pokémon project!');
-
 //this is defining the name, height, weight and types of pokemon in an array, wrapping it in an IIFE and making it print on the screen
 let pokemonRepository = (function () {
   let pokemonList = [
